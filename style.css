@@ -1,0 +1,28 @@
+body {
+    background-color: black; /* Set background color to black */
+}
+
+h2 {
+    color: white;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    display: none; /* Initially hidden */
+}
+
+.error.active {
+    display: block; /* Show when active */
+}
+
+.confirmation-message {
+    color: green;
+    margin-top: 10px;
+    font-size: 14px;
+    display: none; /* Initially hidden */
+}
+
+.confirmation-message.active {
+    display: block; /* Show when active */
+}
